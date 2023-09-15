@@ -1,6 +1,10 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Container, Row, Col} from "react-bootstrap";
+import meter1 from "../assets/img/meter1.svg";
+import meter2 from "../assets/img/meter2.svg";
+import meter3 from "../assets/img/meter3.svg";
+import colorSharp from "../assets/img/color-sharp.png";
 
 export const Skills =() => {
 
@@ -34,19 +38,19 @@ return (
                     <p>In React, the syntax is used to define the column layout within a grid system, specifically in the context of the react-bootstrap library.</p>
                     <Carousel responsive={responsive} infinite={true} className="skill-slider">
                      <div className="item">
-                        <img src ={}alt="Image"/>
+                        <img src ={meter1}alt="Image"/>
                         <h5>Web Development</h5>
                         </div>
                         <div className="item">
-                        <img src ={}alt="Image"/>
+                        <img src ={meter2}alt="Image"/>
                         <h5>Mobile Development</h5>
                         </div>  
                         <div className="item">
-                        <img src ={}alt="Image"/>
+                        <img src ={meter3}alt="Image"/>
                         <h5>UI/UX Design</h5>
                         </div>  
                         <div className="item">
-                        <img src ={}alt="Image"/>
+                        <img src ={meter1}alt="Image"/>
                         <h5>Content Creation</h5>
                         </div>     
                     </Carousel>
@@ -54,6 +58,7 @@ return (
                 </Col>
             </Row>
         </Container>
+        <img className="background-image-left" src={colorSharp}/>
          </section>
 )
 

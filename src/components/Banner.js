@@ -51,7 +51,8 @@ export const Banner = () => {
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
-                        <h1>{"Hi I'm Pabasara! I am a "}<span className="wrap">{text}</span></h1>
+                        <h1>{"Hi I'm Pabasara!"}</h1>
+                        <h2>{"I am a "}<span className="wrap">{text}</span></h2>
                         <p>In React, the syntax is used to define the column layout within a grid system, specifically in the context of the react-bootstrap library.</p>
                         <button onClick={() => console.log('connect')}>Let's Connect<ArrowRightCircle size={25}/></button>
                     </Col>
