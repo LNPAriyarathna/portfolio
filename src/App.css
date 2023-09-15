@@ -410,6 +410,7 @@ border-color: transparent;
   overflow: hidden;
   height: auto;
   margin-bottom: 24px;
+  
 }
 .proj-imgbx::before {
   content: "";
@@ -457,7 +458,34 @@ border-color: transparent;
   right: 0;
   z-index: -4;
 }
+/*Contact*/
 
+.contact-full{
+  background-image: url('./assets/img/footer-bg.png');
+}
+
+.contact{
+  margin-top: 100px;
+}
+
+.contact h2{
+  font-size: 45px;
+	font-weight: 700;
+  text-align: center;
+}
+.FName, .LName, .email, .phonenum  {
+  border-radius: 20px;
+  width: 300px;
+  background-color: transparent;
+  margin: 12px;
+}
+
+.message{
+  border-radius: 20px;
+  width: 300px;
+  background-color: transparent;
+  margin: 12px;
+}
 /* .App {
   text-align: center;
 }
